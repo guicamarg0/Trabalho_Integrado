@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.cabecalho{
+    background-color: #002765;
+    border-bottom: #c3c3c3 25px solid;
+}
+.cabecalho a{
+text-decoration: none;
+font-size: 25px;
+
+}
+.cabecalho li{
+    list-style-type: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links li{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.links a:hover{
+    background-color: #c3c3c3;
+    transition: .4s;
+    color: black;
+    border-radius: 1px;
+}
+.links a{
+    padding: 20px;
+    display: inline-block;
+}
+aside{
+    position: fixed;
+    right: 0;
+    display: flex;
+    padding-top: 1%;
+}
+.icon-menu img{
+    position: block;
+    width:50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.barra-menu{
+    background-color: #efefef;
+    height: 100%;
+    width: 0px;
+    transition: 0.4s all;
+    border-radius: 4px;
+}
+.barra-menu ul li{
+    list-style-type:none ;
+    margin: 10%;
+}
+.avisobtn{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    background-color:#fdf9f9;
+    border: solid 2px #eeecec;
+    border-radius: 4px;
+   
+   
+    
+}
+.avisobtn:hover{
+    background-color: #c3c3c3;
+    transition: .9s;
+}
+
+
+footer{
+    width: 100%;
+    color: #c3c3c3;
+}
+.footerContent{
+    background-color:#002765 ;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+   
+}
+.footerItens h1{
+    margin-bottom: 0.75rem;
+   
+}
+#footerSocial .footerLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+    text-decoration: none;
+    color: white;
+}
+#footerSocial{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}
+.footerItens{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#facebook {
+    background-color: #4267b3;
+}
+#whatsapp {
+    background-color: #25d366;
+}
+#footerSocial .footerLink:hover {
+    opacity: 0.8;
+}
+
+
+.footerLista li{
+    list-style-type: none;
+    padding-bottom: 1rem;
+
+}
+.footerLista a{
+    
+    color: #c3c3c3;
+}
+.boletimbtn{
+    background-color:#c3c3c3;
+    color: black;
+}
+.matriculabtn{
+    color: white;
+}
+.frequenciabtn{
+    color: white;
+}
+.iniciobtn{
+    color: white;
+}
+.bibliotecabtn{
+    color: white;
+}
+.logoheader{
+    width: 150px;
+    height: 150px;
+}
+.logofooter{
+    width: 100px;
+    height: 100px;
+}
+@media (max-width: 768px){
+    .cabecalho img{
+        width: 100px;
+        height: 100px;
+    }
+    .cabecalho a{
+        font-size: 16px;
+    }
+
+    .footerContent{
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+        align-items: center;
+    }
+    .footerItens{
+        font-size: 16px;
+        padding: 10px;
+    
+    }
+    .logofooter{
+        width: 50px;
+        height: 50px;
+        
+        
+        
+    }
+    .footerLista{
+        text-align: center;
+        margin-top: 10px;
+    }
+}@media (max-width: 426px){
+
+.links li{
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho a{
+    padding: 10px;
+}
+
+
+
+
+
+
+}
